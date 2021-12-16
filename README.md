@@ -8,4 +8,4 @@ Currently experimenting different stratagies:
 - def get_moving_average_crossover() return buy and sell singnales. Buy signal: MA 4 > MA 18 > MA 40 and MA 4 > MA 40. Sell signal: MA 4 < MA 18. Can be adjusted to buy or sell ealier or later
 - time.sleep(600) at the end of the code can be adjusted. Not realy sure if this is more profitable... 
 
-Created via PyCharm therefore importing few libaries is required. testing alot at this momement, thefore not finsished yet for found the ideal strategie yet. 
+Created via PyCharm therefore importing few libaries is required. Testing alot at this momement, therefore not finsished yet or found the ideal strategie yet. 
