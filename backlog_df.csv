@@ -1,0 +1,3 @@
+backlog_df = pd.DataFrame(columns=['symbol', 'orderid', 'buy_date', 'bought_at', 'volume', 'order_sell_id', 'sold_at', 'sold_date','bought_SMA40', 'bought_SMA18', 'bought_SMA4', 'sold_SMA40', 'sold_SMA18', 'sold_SMA4', 'type'])
+backlog_df.set_index('symbol', inplace=True)
+backlog_df.to_csv('backlog_df.csv')
