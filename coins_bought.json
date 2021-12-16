@@ -1,0 +1,10 @@
+{
+            'symbol': orders[coin][0]['symbol'],
+            'orderid': orders[coin][0]['orderId'],
+            'buy_date': datetime.fromtimestamp(orders[coin][0]['time']/1000).strftime('%Y-%m-%d %H:%M:%S'),
+            'bought_at': last_price[coin]['price'],
+            'volume': volume[coin],
+            'bought_SMA40': tech_df[coin]['40sma'].iloc[-1],
+            'bought_SMA18': tech_df[coin]['18sma'].iloc[-1],
+            'bought_SMA4': tech_df[coin]['4sma'].iloc[-1]
+}
